@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOFTPKG NAME="Alien-wxWidgets" VERSION="0,69,0,0">
+  <TITLE>Alien-wxWidgets</TITLE>
+  <ABSTRACT>building, finding and using wxWidgets binaries</ABSTRACT>
+  <AUTHOR>Mattia Barbon &lt;mbarbon@cpan.org&gt;</AUTHOR>
+  <IMPLEMENTATION>
+    <DEPENDENCY NAME="Module-Pluggable" VERSION="2,6,0,0" />
+    <REQUIRE NAME="Module::Pluggable" VERSION="2.6" />
+    <OS NAME="MSWin32" />
+    <ARCHITECTURE NAME="MSWin32-x64-multi-thread-5.30" />
+    <CODEBASE HREF="Alien-wxWidgets.tar.gz" />
+    <PROVIDE NAME="Alien::wxWidgets" VERSION="0.69" />
+    <PROVIDE NAME="Alien::wxWidgets::Utility" VERSION="0.59" />
+  </IMPLEMENTATION>
+</SOFTPKG>

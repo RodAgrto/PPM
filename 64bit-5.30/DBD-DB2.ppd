@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOFTPKG NAME="DBD-DB2" VERSION="1,86,0,0">
+  <TITLE>DBD-DB2</TITLE>
+  <ABSTRACT>Perl driver for IBM DB2 Universal Database</ABSTRACT>
+  <AUTHOR>DB2 Perl (db2perl@ca.ibm.com)</AUTHOR>
+  <IMPLEMENTATION>
+    <OS NAME="MSWin32" />
+    <ARCHITECTURE NAME="MSWin32-x64-multi-thread-5.30" />
+    <CODEBASE HREF="DBD-DB2.tar.gz" />
+    <PROVIDE NAME="DBD::DB2::dr" VERSION="1.86" />
+    <PROVIDE NAME="DBD::DB2::Constants" VERSION="1.86" />
+    <PROVIDE NAME="Bundle::DBD::DB2" VERSION="1.86" />
+    <PROVIDE NAME="DBD::DB2::st" VERSION="1.86" />
+    <PROVIDE NAME="DBD::DB2" VERSION="1.86" />
+    <PROVIDE NAME="DBD::DB2::db" VERSION="1.86" />
+  </IMPLEMENTATION>
+</SOFTPKG>

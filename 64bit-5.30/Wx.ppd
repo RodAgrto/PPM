@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOFTPKG NAME="Wx" VERSION="0,9932,0,0">
+  <TITLE>Wx</TITLE>
+  <ABSTRACT>interface to the wxWidgets cross-platform GUI toolkit</ABSTRACT>
+  <AUTHOR>Mattia Barbon &lt;mbarbon@cpan.org&gt;</AUTHOR>
+  <IMPLEMENTATION>
+    <DEPENDENCY NAME="Alien-wxWidgets" VERSION="0,25,0,0" />
+    <REQUIRE NAME="Alien::wxWidgets" VERSION="0.25" />
+    <OS NAME="MSWin32" />
+    <ARCHITECTURE NAME="MSWin32-x64-multi-thread-5.30" />
+    <CODEBASE HREF="Wx.tar.gz" />
+    <PROVIDE NAME="Wx::PGLongStringDialogAdapter" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewToggleRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ExtHelpController" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PreviewControlBar" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlLinkEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WinHelpController" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Client" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Server" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Locale::T" />
+    <PROVIDE NAME="Wx::DDEServer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DocManager" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGInDialogValidator" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridTableBase" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewModel" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Connectionbase" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TimerRunner" />
+    <PROVIDE NAME="Wx::RichTextStyleComboCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DateTime" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WebView" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PropertyGridPage" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGComboBoxEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::EditEnumProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlContainerCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellFloatRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::AuiManagerEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextCharacterStyleDefinition" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellBoolRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellDateTimeRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WebViewHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGCellRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::View" VERSION="0.01" />
+    <PROVIDE NAME="Wx::MultiChoiceProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Print" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlWinTagHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker" VERSION="0.28" />
+    <PROVIDE NAME="Wx::PlFSFile" VERSION="0.01" />
+    <PROVIDE NAME="Wx::XSP::Overload" />
+    <PROVIDE NAME="Wx::DropFilesEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Core" />
+    <PROVIDE NAME="Wx::PlGridCellRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TextDataObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TreeItemId" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::MediaEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::BoolProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGFileDialogAdapter" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Object" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::AUI" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FileDataObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellAutoWrapStringEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PreviewFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Html" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PrintPreview" VERSION="0.01" />
+    <PROVIDE NAME="Wx::UIntProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextListStyleDefinition" VERSION="0.01" />
+    <PROVIDE NAME="build::Wx::XSP::Enum" />
+    <PROVIDE NAME="Wx::Printout" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellTextEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Perl::Carp" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FileSystemHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PropertyGridIteratorBase" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewIconTextRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DateProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ObjectRefData" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Calendar" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextHTMLHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewTreeCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::MediaCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlWinParser" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PropertyCategory" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGTextCtrlAndButtonEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PropertyGridIterator" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RibbonMSWArtProvider" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Win32" />
+    <PROVIDE NAME="Wx::GridCellNumberEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichText" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GenericPageSetupDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::AuiNotebook" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ImageFileProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FloatProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlConnection" VERSION="0.01" />
+    <PROVIDE NAME="Wx::XSP::Virtual" />
+    <PROVIDE NAME="Wx::IPV4address" VERSION="0.01" />
+    <PROVIDE NAME="Wx::CursorProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Grid" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellBoolEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SystemColourProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlGridCellEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataObjectSimple" VERSION="0.01" />
+    <PROVIDE NAME="Wx::IPaddress" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Locale" />
+    <PROVIDE NAME="Wx::DocChildFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HelpControllerHtml" VERSION="0.01" />
+    <PROVIDE NAME="Wx::MDIChildFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewDateRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellNumberRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewCustomRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GenericMDIParentFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FileProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PliXmlSubclassFactory" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ColourPropertyValue" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SocketClient" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SymbolPickerDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::XSP::Enum" />
+    <PROVIDE NAME="Wx::GridCellFloatEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HelpControllerBase" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WebViewArchiveHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGCheckBoxEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DND" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Perl::SplashFast" VERSION="0.02" />
+    <PROVIDE NAME="Wx::DropSource" />
+    <PROVIDE NAME="Wx::DataViewCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PrintDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WindowsPrintPreview" VERSION="0.01" />
+    <PROVIDE NAME="Wx::BesthelpController" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlColourCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ArrayStringProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Any_OS" />
+    <PROVIDE NAME="Wx::DocPrintout" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GenericMDIClientWindow" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::LongStringProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellEditorEvtHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TCPServer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::UNIXaddress" VERSION="0.01" />
+    <PROVIDE NAME="Wx::URLDataObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGArrayStringEditorDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Event" />
+    <PROVIDE NAME="Wx::RichTextParagraphStyleDefinition" VERSION="0.01" />
+    <PROVIDE NAME="Wx::StyledTextEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGDefaultRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextXMLHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::XSP::Event" />
+    <PROVIDE NAME="Wx::IPV6address" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGDatePickerCtrlEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextBuffer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlListBox" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Menu" />
+    <PROVIDE NAME="Wx::DatePickerCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGMultiButton" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Mini" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::GenericPrintDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::InternetFSHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextParagraphLayoutBox" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewIndexListModel" VERSION="0.01" />
+    <PROVIDE NAME="Wx::STC" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PerlTest" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewProgressRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGTextCtrlEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlHelpController" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PropertyGrid" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PrintPreviewBase" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Help" VERSION="0.01" />
+    <PROVIDE NAME="Wx::CalendarEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Media" VERSION="0.01" />
+    <PROVIDE NAME="Wx::CHMHelpController" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PreviewCanvas" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Document" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextCompositeObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellEnumRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextHeaderFooterData" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlHtmlListBox" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ArtProvider" />
+    <PROVIDE NAME="Wx::FS" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::MDIClientWindow" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextFormattingDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Ribbon" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GnomePrintDC" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataView" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlDataObjectSimple" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGArrayEditorDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ContextHelpButton" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextBox" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RibbonAUIArtProvider" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PostScriptPrinter" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlWindow" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RibbonDefaultArtProvider" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TCPClient" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FileDropTarget" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::Options" />
+    <PROVIDE NAME="Wx::IntProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextPrinting" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewBitmapRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Hacks" />
+    <PROVIDE NAME="Wx::GridCellRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlDataViewIndexListModel" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlXmlResourceHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::CalendarCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::AuiNotebookEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlHtmlTag" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::MacOSX_GCC" />
+    <PROVIDE NAME="Wx::PlFileSystemHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Timer" />
+    <PROVIDE NAME="Wx::SimpleHelpProvider" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DDEConnection" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DirProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PostScriptDC" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PageSetupDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::AuiManager" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SimpleHtmlListBox" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TextDropTarget" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::EnumProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::IPC" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ZipFSHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellChoiceEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlPreviewFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Loader::Standard" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::HelpController" VERSION="0.01" />
+    <PROVIDE NAME="Wx::StringProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SimpleApp" />
+    <PROVIDE NAME="Wx::Connection" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlHtmlWinTagHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Perl::SplashFast::App" VERSION="0.02" />
+    <PROVIDE NAME="Wx::GridWindow" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridCellAutoWrapStringRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlDropTarget" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextStyleDefinition" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SocketEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::App" />
+    <PROVIDE NAME="Wx::" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::RibbonArtProvider" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlCellEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridRangeSelectEvent" VERSION="0.01" />
+    <PROVIDE NAME="build::Wx::XSP::Virtual" />
+    <PROVIDE NAME="Wx::PlThreadEvent" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::HtmlWordCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridEditorCreatedEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::BitmapDataObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGChoicesData" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataObject" VERSION="0.01" />
+    <PROVIDE NAME="Wx::XRC" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Win32_MinGW" />
+    <PROVIDE NAME="Wx::Overload::Handle" />
+    <PROVIDE NAME="Wx::PlCommand" VERSION="0.01" />
+    <PROVIDE NAME="Wx::MDIParentFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DDEClient" VERSION="0.01" />
+    <PROVIDE NAME="build::Wx::XSP::Event" />
+    <PROVIDE NAME="Wx::DocParentFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlHtmlTagHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGChoiceAndButtonEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Socket" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Overload::Driver" />
+    <PROVIDE NAME="Wx::GridCellEnumEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlClient" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TCPConnection" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FontProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGSpinCtrlEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextStyleListBox" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DateEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Socket::Event" VERSION="0.01" />
+    <PROVIDE NAME="Wx::SocketServer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewTreeStore" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TextAttrEx" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlPreviewControlBar" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DocMDIParentFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RadioBox" />
+    <PROVIDE NAME="Wx::GridCellStringRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewTextRendererAttr" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ArchiveFSHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DocMDIChildFrame" VERSION="0.01" />
+    <PROVIDE NAME="Wx::Perl::TextValidator" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PrinterDC" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HelpControllerHelpProvider" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PropertyGridManager" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataViewTextRenderer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlServer" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextStyleOrganiserDialog" VERSION="0.01" />
+    <PROVIDE NAME="Wx::TimePickerCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PGChoiceEditor" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PrintPaperType" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DataObjectComposite" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WindowsPrinter" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlGridTable" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlFontCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlWidgetCell" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GridSizeEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Core::Dummy" />
+    <PROVIDE NAME="Wx::MDI" VERSION="0.01" />
+    <PROVIDE NAME="Wx::PlArtProvider" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Win32_MSVC" />
+    <PROVIDE NAME="Wx::build::Utils" />
+    <PROVIDE NAME="Wx::HtmlTag" VERSION="0.01" />
+    <PROVIDE NAME="build::Wx::XSP::Overload" />
+    <PROVIDE NAME="Wx::PostScriptPrintPreview" VERSION="0.01" />
+    <PROVIDE NAME="Wx::build::MakeMaker::Any_wx_config" />
+    <PROVIDE NAME="Wx::HtmlParser" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GDIObject" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::Font" VERSION="0.9932" />
+    <PROVIDE NAME="Wx::DatagramSocket" VERSION="0.01" />
+    <PROVIDE NAME="Wx::DocView" VERSION="0.01" />
+    <PROVIDE NAME="Wx::WebViewEvent" VERSION="0.01" />
+    <PROVIDE NAME="Wx::ColourProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::FlagsProperty" VERSION="0.01" />
+    <PROVIDE NAME="Wx::RichTextStyleListCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::StyledTextCtrl" VERSION="0.01" />
+    <PROVIDE NAME="Wx::HtmlTagHandler" VERSION="0.01" />
+    <PROVIDE NAME="Wx::GenericMDIChildFrame" VERSION="0.01" />
+  </IMPLEMENTATION>
+</SOFTPKG>
